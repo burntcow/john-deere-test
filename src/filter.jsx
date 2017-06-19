@@ -28,7 +28,7 @@ class Filter extends Component {
         </div>
         <div className="list">
           {this.props.items
-            .filter(item => item.toLowerCase().includes(this.state.filter))
+            .filter(item => item.toLowerCase().includes(this.state.filter.toLowerCase()))
             .sort((a, b) => {
               if (this.state.sort) {
                 return b.toLowerCase() > a.toLowerCase();
