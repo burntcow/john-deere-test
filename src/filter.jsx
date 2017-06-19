@@ -43,7 +43,7 @@ class Filter extends Component {
             <button
               type="button"
               id="sort"
-              className={classNames('button button--icon-left pizza-list__sort-button', { 'icon--sort-asc': !this.state.sort, 'icon--sort-desc': this.state.sort })}
+              className={classNames('button button--icon-left', { 'icon--sort-asc': !this.state.sort, 'icon--sort-desc': this.state.sort })}
               onClick={this.handleSort}
             >
               <span>Sort</span>
