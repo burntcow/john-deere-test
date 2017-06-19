@@ -16,7 +16,7 @@
 > React, Vue, Angular, Webpack, Gulp, Ember, Riot, jQuery.
 
 #### 6. Describe specifically the extent of your knowledge and experience with TDD?
-> I do know about TDD and its principles but I do not practice it. I believe in making sure the API is how I want it before I write tests. I do not believe tests passing – regardless if they are correct or not – is a good way to go about testing. Tests are important regardless though.
+> I am familiar with TDD and its principles, but do not generally practice it in my normal workflow. Instead I opt to tweak APIs until they are how I want them, and then write tests to cover all necessary requirements. While I do believe that tests are critical, I do not believe passing tests – regardless if they are correct or not – are solely indicative of effective code. That being said, I certainly understand TDD's value in helping to create an ecosystem of maintainable code, and would be happy to use it if asked.
 
 #### 7. How to you ensure consistent code across a team of developers?
 > Enforcing standards, best practices, linters, and code review.
