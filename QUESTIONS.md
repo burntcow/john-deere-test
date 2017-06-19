@@ -10,7 +10,7 @@
 > Gulp, Bower, Webpack, Rollup, Browserify, npm, Yarn, React, Angular, Ember, JavaScript, etc. Anything with any traction, I have some experience with.
 
 #### 4. How often do you use code from stack overflow?
-> Sometimes.
+> The internet has a variety of sources for developers to communicate. Stack Overflow can sometimes be useful, but care must be taken to understand and adapt any code seen there to work properly in the context of whatever project you're working on.
 
 #### 5. What frameworks/libraries do you have production experience with? Please give as many as you have used.
 > React, Vue, Angular, Webpack, Gulp, Ember, Riot, jQuery.
