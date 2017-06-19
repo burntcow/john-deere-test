@@ -68,4 +68,8 @@ class Filter extends Component {
   }
 }
 
+Filter.defaultProps = {
+  items: []
+}
+
 export default Filter;
