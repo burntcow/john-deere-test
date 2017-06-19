@@ -11,12 +11,12 @@ var webpack = require('webpack'),
             filename: 'app.js'
         },
         module: {
-            loaders: [
+            rules: [
                 {test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader'}
             ]
         },
         resolve: {
-            extensions: ['', '.js', '.jsx']
+            extensions: ['.js', '.jsx']
         },
         devtool: 'source-map',
         plugins: [
@@ -24,7 +24,6 @@ var webpack = require('webpack'),
         ],
         devServer: {
             port: port,
-            info: false,
             historyApiFallback: true,
             hot: true,
             contentBase: '.',

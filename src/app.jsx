@@ -15,6 +15,9 @@ class App extends Component {
       .then(res => this.setState({ pizzas: res.pizzas }));
   }
   render() {
+    if (!this.state.pizzas.length) {
+      return <div className="loader">Loading...</div>;
+    }
     return <Filter items={this.state.pizzas} />
   }
 }
