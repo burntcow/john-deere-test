@@ -38,9 +38,14 @@ class Filter extends Component {
           <div className="section-controls">
             <div className="input-group input-group--inline">
               <label htmlFor="filter">Filter</label>
-              <input id="filter" type="text" className="input pizza-list__input" placeholder="Type to filter" onChange={this.handleOnChange} />
+              <input id="filter" type="text" className="input" placeholder="Type to filter" onChange={this.handleOnChange} />
             </div>
-            <button type="button" id="sort" className={classNames('button button--icon-left pizza-list__sort-button', { 'icon--sort-asc': !this.state.sort, 'icon--sort-desc': this.state.sort })} onClick={this.handleSort}>
+            <button
+              type="button"
+              id="sort"
+              className={classNames('button button--icon-left pizza-list__sort-button', { 'icon--sort-asc': !this.state.sort, 'icon--sort-desc': this.state.sort })}
+              onClick={this.handleSort}
+            >
               <span>Sort</span>
             </button>
           </div>
